@@ -1,4 +1,6 @@
 .Nav {
+  padding: 0 10px;
+  overflow: hidden;
   transition: 0.2s ease;
   background: #eee;
   grid-column-start: 1;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './styles.css';
 import Sidebar from '../Sidebar/Sidebar';
 import Nav from '../Nav/Nav';
+import R3F from '../R3F/R3F';
 
 const Layout = () => {
   const [menu, setMenu] = useState('closed');
@@ -31,7 +32,9 @@ const Layout = () => {
         <a onClick={toggleMenu}>Menu</a>
         <a onClick={toggleEdit}>Edit</a>
       </div>
-      <div className="Content"></div>
+      <div className="Content">
+        <R3F />
+      </div>
       <div className="Bottombar"></div>
       <Sidebar title="Sidebar" open={edit} />
     </div>

@@ -11,7 +11,7 @@
 }
 
 .Topbar {
-  background: #ddd;
+  padding: 0 10px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -21,7 +21,7 @@
 }
 
 .Content {
-  background: yellow;
+  padding: 0 10px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -29,7 +29,7 @@
 }
 
 .Bottombar {
-  background: #ddd;
+  padding: 0 10px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
