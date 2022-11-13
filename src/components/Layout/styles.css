@@ -1,0 +1,39 @@
+.Layout {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  min-height: 100%;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 30px 1fr 30px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Topbar {
+  background: #ddd;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Content {
+  background: yellow;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Bottombar {
+  background: #ddd;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  justify-content: space-between;
+}
