@@ -21,6 +21,7 @@
 }
 
 .Content {
+  background: yellow;
   padding: 0 10px;
   grid-column-start: 2;
   grid-column-end: 3;

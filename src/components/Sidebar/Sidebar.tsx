@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
 
-const Sidebar = (props) => {
+const Sidebar = (props: any) => {
   return (
     <div className="Sidebar" id={props.open}>
-      <h2>{props.title}</h2>
+      <h2>Sidebar</h2>
     </div>
   );
 };

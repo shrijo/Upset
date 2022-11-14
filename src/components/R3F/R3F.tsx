@@ -1,9 +1,9 @@
 import React from 'react';
-import { Canvas } from 'react-three-fiber';
+import { Canvas } from '@react-three/fiber';
 
 const R3F = () => {
   return (
-    <div className="R3D">
+    <div className="R3F">
       <Canvas>
         <mesh>
           <boxBufferGeometry />
